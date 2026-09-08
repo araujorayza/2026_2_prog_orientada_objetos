@@ -1,5 +1,8 @@
+# minhas_classes.py
+"""Definicao da classes Televisao e ControleRemoto"""
+
 class Televisao:
-    """Define a classe Televisao"""
+    """Classe exemplo sobre uma televisao cujo canal e volume podem ser alterados"""
     def __init__(self, canal_inicial: int = 1, volume_inicial: int = 10):
               
         # Atributos protegidos/privados
@@ -59,7 +62,7 @@ class Televisao:
 
 
 class ControleRemoto:
-    """Define a classe ControleRemoto"""
+    """Classe exemplo sobre um controle remoto que controla uma televisao"""
     def __init__(self, tv: Televisao):
         # Associação com o objeto Televisao
         print(f"[CONTROLE] Criando um controle associado a tv {tv}...")

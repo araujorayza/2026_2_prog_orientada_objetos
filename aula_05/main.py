@@ -1,10 +1,6 @@
 # main.py
 """Uso das classes Televisao e ControleRemoto"""
 
-# from minhas_classes.televisao import Televisao
-
-# minhatv = Televisao()
-
 from minhas_classes.minhas_classes import Televisao,ControleRemoto
 
 # Instanciação do objeto Televisão
